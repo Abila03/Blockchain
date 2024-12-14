@@ -15,7 +15,7 @@ contract SupplyChain {
     uint public productCount; 
 
     constructor() {
-        productCount = 0; // Hanya inisialisasi nilai
+        productCount = 0; 
     }
 
     event ProductCreated(uint id, string name, address owner);
